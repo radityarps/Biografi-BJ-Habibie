@@ -1,0 +1,103 @@
+#image {
+    max-width: 100%;
+    width: 50rem;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+}
+figcaption {
+    text-align: center;
+    font-size: small;
+    padding: 10px 0 0 0;
+}
+#img-div {
+    background-color: white;
+    display: block;
+    padding: 20px ;
+    margin: 20px;
+    border-radius: 20px;
+}
+main {
+    background-color: gainsboro;
+    width: 98%;
+    margin: 20px auto 0 auto;
+    padding-top: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 20px 0 0 0;
+    margin-bottom: 0;
+    display: block;
+    font-weight: bold;
+}
+.sebutan {
+    text-align: center;
+    padding-top: 0;
+    font-size: 14px;
+    margin-top: 0;
+}
+.profil {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.orangtua, .pendidikan, .jabatan, .karya {
+    font-weight: bold;
+}
+div p {
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+ul, ol {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+footer {
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.tombol a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px 10px 5px 20px;
+    font-size: 20px;
+}
+.tombol a:hover{
+    background-color: black;
+    border: 15px solid black;
+    color: white;
+}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+#tribute-link {
+    text-decoration: ;
+    color: black;
+}
+#tribute-link:hover {
+    color: rgb(4, 102, 248);
+}
